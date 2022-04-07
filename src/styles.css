@@ -100,6 +100,9 @@ nav a {
   color: var(--primary-color);
   font-size: 28px;
 }
+footer {
+  font-size: small;
+}
 footer a {
   color: var(--accent-color);
   text-decoration: none;
