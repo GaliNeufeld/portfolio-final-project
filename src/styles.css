@@ -1,6 +1,6 @@
 :root {
     --header-font: 'Open Sans', sans-serif;
-    --text-font: font-family: 'Nunito Sans', sans-serif; 
+    --text-font:'Nunito Sans', sans-serif; 
     --primary-color: #781D42;
     --background-color: #fff6f4;
     --secondary-color: #fde4e4;
@@ -94,4 +94,12 @@ font-size: 28px;
 .linkedin {
     color: var(--primary-color);
     font-size: 28px;
+}
+footer a{ 
+  color: var(--accent-color);  
+  text-decoration: none;
+}
+footer a:hover {
+    color: var(--primary-color);
+    text-decoration: underline;
 }
