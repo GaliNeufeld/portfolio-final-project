@@ -38,7 +38,14 @@ p {
   border-radius: 4px;
   font-size: 18px;
 }
-.nav-bar .nav-item .nav-link {
+.navbar-light .navbar-nav .nav-link {
+  color: var(--primary-color);
+}
+.navbar-light .navbar-nav .nav-link.active {
+  color: black;
+  font-weight: bold;
+}
+.container .navbar-brand {
   color: var(--primary-color);
 }
 .about-paragraphs {
@@ -80,6 +87,20 @@ p {
 }
 .homepage-link {
   color: var(--accent-color);
+}
+
+.primary-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: var(--background-color);
+}
+.primary-link:hover {
+  color: white;
+  text-decoration: underline;
 }
 .email-link {
   color: var(--primary-color);
