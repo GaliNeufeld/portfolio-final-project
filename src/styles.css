@@ -38,9 +38,6 @@ p {
   border-radius: 4px;
   font-size: 18px;
 }
-nav a {
-  color: var(--primary-color);
-}
 .nav-bar .nav-item .nav-link {
   color: var(--primary-color);
 }
