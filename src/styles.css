@@ -11,7 +11,7 @@ body {
   margin: 60px auto;
   background-color: var(--background-color);
   text-align: center;
-  max-width: 800px;
+  max-width: 80%;
   font-family: var(--text-font);
 }
 
@@ -32,9 +32,9 @@ h3 {
   color: var(--accent-color);
 }
 p {
-  background: var(--secondary-color);
+  background: var(--background-color);
   padding: 20px;
-  line-height: 1.5;
+  line-height: 30px;
   border-radius: 4px;
   font-size: 18px;
 }
@@ -47,6 +47,9 @@ p {
 }
 .container .navbar-brand {
   color: var(--primary-color);
+}
+.project-description {
+  padding: 120px 20px
 }
 .about-paragraphs {
   display: flex;
