@@ -71,7 +71,7 @@ p {
   margin-top: 5px;
 }
 .navigation-links a {
-  margin: 20px;
+  margin: 20px 20px 10px;
   text-decoration: none;
   border: var(--primary-color) 1px solid;
   border-radius: 20px;
@@ -87,6 +87,7 @@ p {
 .projects-link:hover {
   color: white;
   text-decoration: underline;
+  transition: all 150ms ease-in-out;
 }
 .about-link {
   color: var(--primary-color);
@@ -95,9 +96,7 @@ p {
 .about-link:hover {
   color: var(--accent-color);
   text-decoration: underline;
-}
-.homepage-link {
-  color: var(--accent-color);
+  transition: all 150ms ease-in-out;
 }
 
 .primary-link {
@@ -112,6 +111,7 @@ p {
 .primary-link:hover {
   color: white;
   text-decoration: underline;
+  transition: all 150ms ease-in-out;
 }
 .contactme-link {
   color: var(--primary-color);
@@ -121,22 +121,29 @@ p {
 .contactme-link:hover {
   text-decoration: underline;
   color: var(--primary-color);
+  transition: all 150ms ease-in-out;
 }
 
-#contact h2 {
-  color: var(--accent-color);
-}
-
-footer {
-  font-size: small;
-}
-footer a {
+small a {
   color: var(--accent-color);
   text-decoration: none;
 }
-footer a:hover {
+small a:hover {
   color: var(--primary-color);
   text-decoration: underline;
+}
+footer a {
+color: var(--background-color);
+background: var(--accent-color);
+padding: 10px 14px;
+border-radius: 50%;
+text-decoration: none;
+margin: 0 20px;
+font-size: 18px;
+
+}
+footer a:hover {
+  color: white;
 }
 @media (max-width: 900px) {
   h1 {
