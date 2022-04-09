@@ -8,11 +8,11 @@
 }
 body {
   color: var(--primary-color);
-  margin: 60px auto;
+  font-family: var(--text-font);
   background-color: var(--background-color);
+  margin: 60px auto;
   text-align: center;
   max-width: 80%;
-  font-family: var(--text-font);
 }
 
 h1,
@@ -49,7 +49,7 @@ p {
   color: var(--primary-color);
 }
 .project-description {
-  padding: 120px 20px
+  padding: 120px 20px;
 }
 .about-paragraphs {
   display: flex;
@@ -61,7 +61,7 @@ p {
 .navigation-links {
   display: flex;
   justify-content: center;
-  margin-top: 20px;
+  margin-top: 5px;
 }
 .navigation-links a {
   margin: 20px;
@@ -131,4 +131,20 @@ footer a {
 footer a:hover {
   color: var(--primary-color);
   text-decoration: underline;
+}
+@media (max-width: 900px) {
+  h1 {
+    font-size: 55px;
+  }
+  h2 {
+    font-size: 44px;
+  }
+  .project-description {
+    padding: 0;
+  }
+}
+@media (min-height: 810px) {
+  .hero {
+    padding-top: 100px;
+  }
 }
