@@ -16,8 +16,7 @@ body {
 }
 
 h1,
-h2,
-h3 {
+h2 {
   margin: 0px;
   font-family: var(--header-font);
 }
@@ -30,6 +29,7 @@ h2 {
 h3 {
   font-size: 24px;
   color: var(--accent-color);
+  font-family: var(--header-font);
 }
 p {
   background: var(--background-color);
@@ -37,6 +37,11 @@ p {
   line-height: 30px;
   border-radius: 4px;
   font-size: 18px;
+}
+.about-section img {
+  margin-top: 27%;
+  padding: 20px;
+  background-color: var(--secondary-color);
 }
 .navbar-light .navbar-nav .nav-link {
   color: var(--primary-color);
@@ -51,12 +56,14 @@ p {
 .project-description {
   padding: 120px 20px;
 }
-.about-paragraphs {
+.about-section {
   display: flex;
   margin: 30px 0;
 }
-.about-paragraphs p {
-  margin: 10px;
+.about-section p {
+  background-color: var(--secondary-color);
+  text-align: left;
+ 
 }
 .navigation-links {
   display: flex;
@@ -76,6 +83,7 @@ p {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
 }
+
 .projects-link:hover {
   color: white;
   text-decoration: underline;
@@ -93,8 +101,8 @@ p {
 }
 
 .primary-link {
-  border-radius: 4px;
-  padding: 20px 15px;
+  border-radius: 20px;
+  padding: 15px 20px;
   text-decoration: none;
   text-transform: capitalize;
   background: var(--primary-color);
