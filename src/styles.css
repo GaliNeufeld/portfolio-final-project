@@ -157,6 +157,9 @@ footer a:hover {
   .project-description {
     padding: 0;
   }
+  .navigation-links a {
+    padding: 10px 15px;
+  }
 }
 @media (min-height: 810px) {
   .hero {
@@ -168,6 +171,4 @@ footer a:hover {
   .navigation-links {
     margin-bottom: 50px;
   }
-  
 }
-
