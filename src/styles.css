@@ -23,6 +23,7 @@ h2 {
 h1 {
   font-size: 96px;
 }
+
 h2 {
   font-size: 48px;
 }
@@ -39,7 +40,6 @@ p {
   font-size: 18px;
 }
 .about-section img {
-  margin-top: 27%;
   padding: 20px;
   background-color: var(--secondary-color);
 }
@@ -169,8 +169,4 @@ footer a:hover {
     margin-bottom: 50px;
   }
 }
-@media (min-width: 1000px) {
-  img.picture {
-    margin-top: 200px;
-  }
-}
+
